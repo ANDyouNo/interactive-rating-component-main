@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Interactive rating component</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+    <!-- Rating state start -->
+       <div class="container-rathing">
+            <div class="rating-form">
+                <div class="rating-form__container">
+                    <img class="rating-form__icon" src="./images/icon-star.svg" alt="">
+                </div>
+                <div class="rating-form__heading"><h2>How did we do?</h2></div>
+                <div class="rating-form__text">
+                    <p>Please let us know how we did with your support request. All feedback is appreciated 
+                        to help us improve our offering!</p>
+                </div>
+                <div class="rating-form__input">
+                    <div class="rating-form__input-container">
+                        <div class="rating-form__radio"><p>1</p></div>
+                        <div class="rating-form__radio"><p>2</p></div>
+                        <div class="rating-form__radio"><p>3</p></div>
+                        <div class="rating-form__radio"><p>4</p></div>
+                        <div class="rating-form__radio"><p>5</p></div>
+                    </div>
+                </div>
+                <button class="submit">Submit</button>
+            </div>
+       </div>
+    <!-- Rating state end -->
+
+    <!-- Thank you state start -->
+        <div class="thanks-container none">
+            <div class="thanks-form">
+                <div class="thanks-form__image"></div>
+                <div class="thanks-form__rathing"><p>You selected <span></span> out of 5</p></div>
+                <div class="thanks-form__heading"><h2>Thank you!</h2></div>
+                <div class="thanks-form__text">
+                    <p>We appreciate you taking the time to give a rating. If you ever need more support, 
+                        don’t hesitate to get in touch!</p>
+                </div>
+            </div>
+        </div>
+    <!-- Thank you state end -->
+    </div>
+  <script src="./js/rate.js"></script>
+</body>
+</html>
